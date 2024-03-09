@@ -1,0 +1,5 @@
+N_cont,alpha,N_line
+5.0,-6.0,200.0
+0.1,2.0,50.0
+0.5,9.0,8.0
+# First line is for k_lam_1, second line is for k_lam_2, and third for k_lam_3. 
