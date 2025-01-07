@@ -28,13 +28,13 @@ After the 30 minutes are up, you can use AI tools to assist you. If you are usin
 
         Parameters
         ----------
-            x (float): 
-              input value
+          x (float): 
+            input value
 
         Returns
         -------
-            f (float): 
-              output value f(x)
+          f (float): 
+            output value f(x)
         """
         return x**2
 ```
