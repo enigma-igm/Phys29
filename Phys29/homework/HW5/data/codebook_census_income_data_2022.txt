@@ -1,0 +1,40 @@
+Codebook – Created 02/05/2024
+Dataset: ACSPUMS1Y2022
+
+Variables: 
+HINCP - Household income (past 12 months, use ADJINC to adjust HINCP to constant dollars)
+WGTP - Housing Unit Weight
+NPF - Number of persons in family (unweighted)
+
+
+HINCP - Household income (past 12 months, use ADJINC to adjust HINCP to constant dollars)
+Topics: 
+Income (Households, Families, Individuals)
+Suggested Weight : WGTP
+Values: 
+-59999 - Loss of -$59,999 or more
+-60000 - N/A(GQ/vacant)
+0 - No household income
+-59998,-1 - Loss of $1 to -$59,998
+1,9999999 - Total household income in dollars (Components are rounded)
+
+WGTP - Housing Unit Weight
+Topics: 
+Description : 
+Housing Unit Weight
+Values: 
+0 - Group quarters place holder record
+1,9999 - Integer weight of housing unit
+
+NPF - Number of persons in family (unweighted)
+Topics: 
+Families and Household Characteristics
+Family Size and Type
+Suggested Weight : WGTP
+Description : 
+Number of persons in family (unweighted)
+Values: 
+1 - N/A (GQ/vacant/non-family household)
+2,20 - Number of persons in family
+
+
