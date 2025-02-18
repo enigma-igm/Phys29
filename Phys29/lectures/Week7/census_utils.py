@@ -7,6 +7,12 @@ def plot_census_data(outfile=None):
     """
     Plots the distribution of household income in the US in 2022 using the American 
     Community Survey data.
+    
+    Parameters
+    ----------
+    outfile : str, optional
+        The name of the file to save the plot to. If None, the plot is not saved to a file.
+        The default is None.
     """
 
     # Load the data
